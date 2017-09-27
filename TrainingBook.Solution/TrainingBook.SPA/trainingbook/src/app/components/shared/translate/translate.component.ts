@@ -7,10 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TranslateComponent implements OnInit {
 
-  supportedLanguages:Array<string>;
+  supportedLanguages:Array<string>= ["en","bg"];
 
   constructor() {
-    this.supportedLanguages=["en","bg"];
    }
 
   ngOnInit() {
