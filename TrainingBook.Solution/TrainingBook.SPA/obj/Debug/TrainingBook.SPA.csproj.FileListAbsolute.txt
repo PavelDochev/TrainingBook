@@ -1,0 +1,5 @@
+C:\MyProjects\TrainingBook\TrainingBook.Solution\TrainingBook.SPA\bin\Debug\TrainingBook.SPA.dll
+C:\MyProjects\TrainingBook\TrainingBook.Solution\TrainingBook.SPA\bin\Debug\TrainingBook.SPA.pdb
+C:\MyProjects\TrainingBook\TrainingBook.Solution\TrainingBook.SPA\obj\Debug\TrainingBook.SPA.csprojResolveAssemblyReference.cache
+C:\MyProjects\TrainingBook\TrainingBook.Solution\TrainingBook.SPA\obj\Debug\TrainingBook.SPA.dll
+C:\MyProjects\TrainingBook\TrainingBook.Solution\TrainingBook.SPA\obj\Debug\TrainingBook.SPA.pdb

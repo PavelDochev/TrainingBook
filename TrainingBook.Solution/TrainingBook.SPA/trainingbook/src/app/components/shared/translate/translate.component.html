@@ -1,0 +1,8 @@
+<div class="obt-lang-bar" >
+  <div *ngFor="let lang of supportedLanguages">
+    <a class="obt-lang" [ngClass]="{selected: lang.key === currentLang}" (click)="obt_onLangChange(langSelect.value)" [title]="lang.nameLong">
+      <img [src]="lang.imgSrc"/>
+     </a>
+    <input type="hidden" [value]="lang.key" #langSelect>
+  </div>
+</div>

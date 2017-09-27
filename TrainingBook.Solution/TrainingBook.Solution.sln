@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrainingBook.Web", "TrainingBook.Web\TrainingBook.Web.csproj", "{4EE95676-308C-4444-A8DE-0F81408EF5C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrainingBook.SPA", "TrainingBook.SPA\TrainingBook.SPA.csproj", "{4884B4B7-C5DA-4EFB-9101-9379FE64B1DD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4EE95676-308C-4444-A8DE-0F81408EF5C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EE95676-308C-4444-A8DE-0F81408EF5C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EE95676-308C-4444-A8DE-0F81408EF5C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EE95676-308C-4444-A8DE-0F81408EF5C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4884B4B7-C5DA-4EFB-9101-9379FE64B1DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4884B4B7-C5DA-4EFB-9101-9379FE64B1DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4884B4B7-C5DA-4EFB-9101-9379FE64B1DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4884B4B7-C5DA-4EFB-9101-9379FE64B1DD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

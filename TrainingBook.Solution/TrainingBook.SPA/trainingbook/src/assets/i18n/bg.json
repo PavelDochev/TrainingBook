@@ -1,0 +1,8 @@
+{
+    "common": {
+        "test": "Тествам.",
+        "bulgarian-format-date": "dd.MM.yyyy",
+        "btn-yes": "Да",
+        "btn-cancel": "Не"        
+    }
+}
