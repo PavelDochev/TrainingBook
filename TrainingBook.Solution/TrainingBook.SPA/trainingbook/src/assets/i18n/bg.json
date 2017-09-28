@@ -4,5 +4,8 @@
         "bulgarian-format-date": "dd.MM.yyyy",
         "btn-yes": "Да",
         "btn-cancel": "Не"        
+    },
+    "login":{
+        "entry":"Вход"
     }
 }

@@ -8,10 +8,14 @@ import { HomeComponent } from './home/home.component';
 import { AppRoutingModule } from "app/components/app.routing";
 import { HomeService } from "app/services/home/home.service";
 
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MdButtonModule, MdCardModule, MdMenuModule, MdToolbarModule, MdIconModule } from '@angular/material';
+
 import { HttpClientModule, HttpClient } from '@angular/common/http';
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { TranslateComponent } from './shared/translate/translate.component';
+import { LoginComponent } from './login/login.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -21,7 +25,8 @@ export function HttpLoaderFactory(http: HttpClient) {
   declarations: [
     AppComponent,
     HomeComponent,
-    TranslateComponent
+    TranslateComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
@@ -29,6 +34,11 @@ export function HttpLoaderFactory(http: HttpClient) {
     HttpModule,
     AppRoutingModule,
     HttpClientModule,
+    // MdButtonModule, 
+    // MdCardModule,
+    // MdMenuModule,
+    // MdToolbarModule,
+    // MdIconModule,
     TranslateModule.forRoot({
       loader: {
         provide: TranslateLoader,
